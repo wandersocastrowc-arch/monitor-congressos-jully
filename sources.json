@@ -1,0 +1,33 @@
+{
+  "_comentario": "Fontes do agregador. Adicionar uma fonte = uma linha aqui. Feeds que falharem sao ignorados sem quebrar o robo.",
+  "rss_feeds": [
+    {"url": "https://portalintercom.org.br/feed", "area": ["comunicação"], "tipo": "Congresso"},
+    {"url": "https://compos.org.br/feed/", "area": ["comunicação"], "tipo": "Congresso"},
+    {"url": "https://ancib.org/feed/", "area": ["ciência da informação"], "tipo": "Congresso"},
+    {"url": "https://isko.org.br/feed/", "area": ["organização do conhecimento", "metadados"], "tipo": "Congresso"},
+    {"url": "https://humanidadesdigitaleshispanicas.es/feed/", "area": ["humanidades digitais"], "tipo": "Congresso"},
+    {"url": "https://www.dublincore.org/news/index.xml", "area": ["metadados"], "tipo": "Congresso"},
+    {"url": "https://periodicos.ufs.br/conci/gateway/plugin/WebFeedGatewayPlugin/atom", "area": ["ciência da informação"], "tipo": "Periódico"},
+    {"url": "https://revistas.pucsp.br/index.php/galaxia/gateway/plugin/WebFeedGatewayPlugin/atom", "area": ["comunicação"], "tipo": "Periódico"},
+    {"url": "https://periodicos.ufmg.br/index.php/pci/gateway/plugin/WebFeedGatewayPlugin/atom", "area": ["ciência da informação"], "tipo": "Periódico"},
+    {"url": "https://revista.ibict.br/ciinf/gateway/plugin/WebFeedGatewayPlugin/atom", "area": ["ciência da informação", "dados"], "tipo": "Periódico"},
+    {"url": "https://www.revistas.usp.br/matrizes/gateway/plugin/WebFeedGatewayPlugin/atom", "area": ["comunicação"], "tipo": "Periódico"},
+    {"url": "https://seer.ufrgs.br/index.php/EmQuestao/gateway/plugin/WebFeedGatewayPlugin/atom", "area": ["ciência da informação"], "tipo": "Periódico"},
+    {"url": "https://periodicos.ufsc.br/index.php/eb/gateway/plugin/WebFeedGatewayPlugin/atom", "area": ["ciência da informação"], "tipo": "Periódico"}
+  ],
+  "wikicfp_cats": ["metadata", "digital+humanities", "information+science", "knowledge+organization", "semantic+web", "digital+libraries"],
+  "doaj_queries": [
+    "bibjson.keywords:metadata",
+    "bibjson.keywords:\"information science\"",
+    "bibjson.keywords:\"knowledge organization\"",
+    "bibjson.keywords:\"digital humanities\"",
+    "bibjson.title:comunica%C3%A7%C3%A3o"
+  ],
+  "openalex_queries": ["metadata", "ciencia da informacao", "humanidades digitais"],
+  "google_cse_queries": [
+    "chamada de trabalhos 2026 OR 2027 metadados OR \"ciência da informação\"",
+    "convocatoria 2026 OR 2027 metadatos OR \"humanidades digitales\"",
+    "call for papers 2026 OR 2027 metadata OR \"information science\" conference",
+    "dossiê chamada artigos 2026 comunicação OR Flusser revista"
+  ]
+}
