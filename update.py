@@ -20,9 +20,12 @@ A cada execucao (seg/qua 7h via GitHub Actions):
 Tudo e resiliente: qualquer fonte/camada que falhar e ignorada; o resto continua.
 """
 
-import json, os, re, datetime, unicodedata, smtplib, ssl, urllib.request, urllib.parse
+import json, os, re, datetime, unicodedata, smtplib, ssl, socket, urllib.request, urllib.parse
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
+
+# Timeout global de socket: impede que um feed/endpoint sem resposta trave o robo.
+socket.setdefaulttimeout(15)
 
 ROOT = os.path.dirname(os.path.abspath(__file__))
 EVENTS = os.path.join(ROOT, "events.json")
