@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Como funciona — Monitor de Congressos & Publicações</title>
+<style>
+  :root{ --navy:#1f2a44; --mostarda:#c8951f; --bg:#f6f5f1; --card:#fff; --ink:#1c1c1c; --muted:#6b6b6b; --line:#e4e1d8; color-scheme:light; }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Georgia,serif;background:var(--bg);color:var(--ink);line-height:1.65;}
+  .wrap{max-width:820px;margin:0 auto;padding:28px 22px 70px;}
+  a{color:#1f2a44;}
+  .back{display:inline-block;font-size:13px;color:var(--mostarda);text-decoration:none;font-weight:600;margin-bottom:14px;}
+  h1{font-family:Georgia,"Times New Roman",serif;color:var(--navy);font-size:27px;margin:0 0 6px;}
+  .sub{color:#444;font-size:14px;margin-bottom:22px;}
+  h2{font-family:Georgia,serif;color:var(--navy);font-size:19px;margin:30px 0 8px;border-bottom:2px solid var(--mostarda);padding-bottom:5px;}
+  h3{color:var(--navy);font-size:15px;margin:18px 0 4px;}
+  p{margin:8px 0;}
+  ol,ul{margin:8px 0 8px 4px;padding-left:20px;}
+  li{margin:5px 0;}
+  .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px 20px;margin:14px 0;}
+  .step{display:flex;gap:12px;margin:10px 0;}
+  .step .n{flex:0 0 28px;height:28px;border-radius:50%;background:var(--navy);color:#fff;font-weight:700;display:flex;align-items:center;justify-content:center;font-size:13px;}
+  .tag{display:inline-block;font-size:11px;padding:2px 8px;border-radius:4px;background:#eaf1f5;color:#2c5161;margin:2px 3px 2px 0;}
+  .note{background:#fbf6e9;border:1px solid #ecdca8;border-radius:8px;padding:12px 16px;font-size:14px;color:#5c4708;margin:14px 0;}
+  code{background:#eef0f6;padding:1px 6px;border-radius:4px;font-size:13px;}
+  footer{margin-top:34px;font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:16px;}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <a class="back" href="index.html">← Voltar ao painel</a>
+  <h1>Como funciona este monitor</h1>
+  <div class="sub">Um guia rápido do mecanismo, das fontes e do que é privado — sem termos técnicos.</div>
+
+  <h2>O que é</h2>
+  <p>É um painel que reúne, num lugar só, <strong>congressos, chamadas de trabalhos, periódicos e dossiês</strong> nas áreas de metadados, ciência da informação, comunicação, Flusser, IA e humanidades digitais (Brasil + Ibero-América). Ele se atualiza sozinho e avisa por e-mail.</p>
+
+  <h2>Como funciona o mecanismo</h2>
+  <p>Toda <strong>segunda e quarta de manhã (7h)</strong>, um robô gratuito do GitHub executa, sem ninguém precisar fazer nada:</p>
+  <div class="card">
+    <div class="step"><div class="n">1</div><div><strong>Coleta</strong> — visita várias fontes e recolhe os anúncios mais recentes.</div></div>
+    <div class="step"><div class="n">2</div><div><strong>Filtra e organiza</strong> — descarta o que está fora do tema e o que já passou do prazo; recalcula o que está "aberto" ou "encerrado".</div></div>
+    <div class="step"><div class="n">3</div><div><strong>Publica</strong> — atualiza o painel na internet (GitHub Pages) automaticamente.</div></div>
+    <div class="step"><div class="n">4</div><div><strong>Avisa</strong> — envia um e-mail com o resumo da rodada (novidades + prazos próximos).</div></div>
+  </div>
+  <p class="note">Tudo isso roda na nuvem do GitHub, de graça. O computador de ninguém precisa estar ligado.</p>
+
+  <h2>Como a busca está organizada</h2>
+  <h3>De onde vêm as oportunidades</h3>
+  <ul>
+    <li><strong>Base curada à mão</strong> — os eventos-âncora verificados um a um: CIM (UNAM), ENANCIB, ISKO, DCMI/Dublin Core, Intercom, Flusser Studies, Compós, entre outros.</li>
+    <li><strong>DOAJ</strong> — catálogo mundial de revistas de acesso aberto, filtrado por assunto (ótimo para "onde publicar").</li>
+    <li><strong>Feeds de associações e revistas</strong> — ANCIB, HDH, Dublin Core, periódicos como MATRIZes e Perspectivas em CI.</li>
+    <li><strong>OpenAlex</strong> e <strong>WikiCFP</strong> — descoberta complementar de periódicos e chamadas.</li>
+  </ul>
+  <h3>Como os itens são classificados</h3>
+  <ul>
+    <li><strong>Status:</strong> <span class="tag">Aberto</span> (dá pra submeter agora) · <span class="tag">Monitorar</span> (sem prazo firme, acompanhar) · <span class="tag">Sempre aberto</span> (revista em fluxo contínuo) · <span class="tag">Encerrado</span>.</li>
+    <li><strong>Tipo:</strong> Congresso · Periódico · Dossiê.</li>
+    <li><strong>Áreas</strong> (as etiquetas azuis) e <strong>idioma</strong> (PT/ES/EN), para filtrar pelo que interessa.</li>
+  </ul>
+  <p>No painel dá para filtrar por status, tipo, idioma, área e por uma busca livre. A caixa "🔥 Prioridades" destaca o que vence nos próximos 45 dias.</p>
+
+  <h2>O botão "Não me interessa" (privado)</h2>
+  <p>Ao clicar em <strong>"✕ Não me interessa"</strong>, o item some do <em>seu</em> painel. Esse arquivamento fica guardado <strong>apenas no navegador de quem clicou</strong> — é uma marca local, pessoal. Ele <strong>não muda o painel de mais ninguém</strong>: outra pessoa que abrir o mesmo link continua vendo todos os itens.</p>
+  <p>Para reaver algo, marque <strong>"Mostrar arquivados"</strong> e clique em <strong>"↩︎ Restaurar"</strong>.</p>
+  <p class="note">Como a marca é do navegador: se a Jully abrir o link em <strong>outro aparelho ou outro navegador</strong> (ou limpar os dados de navegação), o arquivamento não vai junto — cada dispositivo tem a sua própria lista de "não me interessa".</p>
+
+  <h2>Levar para o GitHub da Jully (no futuro)</h2>
+  <p>Hoje o monitor vive na conta de quem montou. Para a Jully ter na conta dela, há caminhos simples:</p>
+  <ol>
+    <li><strong>Transferir o repositório</strong> (Settings → General → Transfer ownership) para o usuário da Jully — leva tudo de uma vez.</li>
+    <li><strong>Ou recriar na conta dela:</strong> ela cria um repositório com os mesmos arquivos, liga o GitHub Pages e cadastra os mesmos segredos de e-mail. É o mesmo passo a passo que está no arquivo <code>README.md</code> do projeto.</li>
+  </ol>
+  <p>Em ambos os casos, o endereço do painel passa a ser o dela (algo como <code>https://USUARIO-DA-JULLY.github.io/monitor-congressos/</code>) e o e-mail pode sair da conta dela. Quando quiserem fazer isso, é rápido — dá para te guiar clique a clique, como fizemos aqui.</p>
+
+  <footer>Monitor de Congressos &amp; Publicações · curadoria automática revisada · confira sempre a chamada oficial antes de submeter.</footer>
+</div>
+</body>
+</html>
