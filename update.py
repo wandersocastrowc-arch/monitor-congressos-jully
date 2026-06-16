@@ -426,8 +426,15 @@ def build_email_html(items, new_items, closed_now):
         p.append('<h3 style="color:#8a2b2b;">Encerraram desde a ultima atualizacao</h3><ul>')
         p.append("".join('<li style="color:#888;">' + i.get("nome", "") + '</li>' for i in closed_now)); p.append("</ul>")
     p.append('<p style="font-size:12px;color:#999;margin-top:18px;">Painel completo (com filtros e arquivar) no GitHub Pages. '
-             'Atualizacao automatica &middot; segundas e quartas as 7h.</p></div>')
+             'Site atualizado diariamente &middot; e-mail às segundas e quartas, 7h.</p></div>')
     return "".join(p)
+
+
+def should_email():
+    """E-mail só nas segundas e quartas (UTC). EMAIL_ALWAYS=1 envia todo dia."""
+    if os.environ.get("EMAIL_ALWAYS") == "1":
+        return True
+    return datetime.date.today().weekday() in (0, 2)
 
 
 def send_email(html):
@@ -471,10 +478,13 @@ def main():
                    "total": len(items), "novos": len(new_items),
                    "encerrados_neste_run": len(closed_now), "por_status": counts}, f, ensure_ascii=False, indent=2)
     print("[ok] total=" + str(len(items)) + " novos=" + str(len(new_items)) + " status=" + str(counts))
-    try:
-        send_email(build_email_html(items, new_items, closed_now))
-    except Exception as e:
-        print("[email] erro: " + str(e))
+    if should_email():
+        try:
+            send_email(build_email_html(items, new_items, closed_now))
+        except Exception as e:
+            print("[email] erro: " + str(e))
+    else:
+        print("[email] hoje não é dia de envio (seg/qua) - pulando. Site atualizado normalmente.")
 
 
 if __name__ == "__main__":
