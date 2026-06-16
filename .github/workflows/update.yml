@@ -2,8 +2,8 @@ name: Atualizar Monitor de Congressos
 
 on:
   schedule:
-    # Segundas e quartas as 10:00 UTC = 07:00 no horario de Brasilia (UTC-3)
-    - cron: "0 10 * * 1,3"
+    # Todos os dias as 10:00 UTC = 07:00 no horario de Brasilia (UTC-3)
+    - cron: "0 10 * * *"
   workflow_dispatch:
 
 permissions:
@@ -36,6 +36,7 @@ jobs:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GOOGLE_API_KEY: ${{ secrets.GOOGLE_API_KEY }}
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
+          EMAIL_ALWAYS: ${{ secrets.EMAIL_ALWAYS }}
         run: python update.py
 
       - name: Commit e push das mudancas
