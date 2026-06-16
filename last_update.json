@@ -1,12 +1,12 @@
 {
-  "timestamp": "2026-06-15T17:58",
-  "total": 61,
-  "novos": 22,
-  "encerrados_neste_run": 0,
+  "timestamp": "2026-06-16T13:12",
+  "total": 81,
+  "novos": 20,
+  "encerrados_neste_run": 1,
   "por_status": {
+    "closed": 3,
     "open": 5,
-    "monitor": 36,
-    "closed": 2,
-    "always": 18
+    "monitor": 38,
+    "always": 35
   }
 }
