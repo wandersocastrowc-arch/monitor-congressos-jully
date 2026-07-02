@@ -1891,6 +1891,29 @@
       "fonte": "WikiCFP",
       "obs": "Descoberto via WikiCFP - confira a chamada oficial.",
       "link": "http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199553&copyownerid=198745"
+    },
+    {
+      "id": "rss-cafe-con-nerea-fernandez-cadenas-y-alfonso-garcia-sanchez-14",
+      "nome": "Café con Nerea Fernández Cadenas y Alfonso García Sánchez. 14 de julio de 2026",
+      "inst": "HDH – Humanidades Digitales Hispánicas",
+      "tipo": "Congresso",
+      "areas": [
+        "humanidades digitais"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Submissao ate 2026-07-14",
+      "prazoSort": "2026-07-14",
+      "status": "open",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-07-02",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://humanidadesdigitaleshispanicas.es/cafe-con-nerea-fernandez-cadenas-y-alfonso-garcia-sanchez-14-de-julio-de-2026/"
     }
   ]
 }
