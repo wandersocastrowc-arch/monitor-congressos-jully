@@ -1914,6 +1914,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://humanidadesdigitaleshispanicas.es/cafe-con-nerea-fernandez-cadenas-y-alfonso-garcia-sanchez-14-de-julio-de-2026/"
+    },
+    {
+      "id": "rss-alfabetizacao-informacional-para-cidadaos-digitais-examinand",
+      "nome": "Alfabetização informacional para cidadãos digitais: examinando o papel das bibliotecas comunitárias na redução da desinformação",
+      "inst": "Encontros Bibli: revista eletrônica de biblioteconomia e ciência da informação",
+      "tipo": "Periódico",
+      "areas": [
+        "ciência da informação"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-07-29",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://periodicos.ufsc.br/index.php/eb/article/view/110306"
     }
   ]
 }
