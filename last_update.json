@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-08-12T10:54",
+  "timestamp": "2026-08-13T10:55",
   "total": 84,
   "novos": 0,
-  "encerrados_neste_run": 1,
+  "encerrados_neste_run": 0,
   "por_status": {
     "closed": 7,
     "monitor": 40,
