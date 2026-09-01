@@ -1960,6 +1960,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://periodicos.ufsc.br/index.php/eb/article/view/109732"
+    },
+    {
+      "id": "rss-cafe-con-esther-trave-allepuz-15-de-septiembre-de-2026",
+      "nome": "Café con Esther Travé Allepuz. 15 de septiembre de 2026",
+      "inst": "HDH – Humanidades Digitales Hispánicas",
+      "tipo": "Congresso",
+      "areas": [
+        "humanidades digitais"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-09-01",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://humanidadesdigitaleshispanicas.es/cafe-con-esther-trave-allepuz-15-de-septiembre-de-2026/"
     }
   ]
 }
