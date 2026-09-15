@@ -2006,6 +2006,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://periodicos.ufsc.br/index.php/eb/article/view/110726"
+    },
+    {
+      "id": "rss-padroes-de-metadados-e-interoperabilidade-na-documentacao-mu",
+      "nome": "Padrões de metadados e interoperabilidade na documentação museológica:",
+      "inst": "Perspectivas em Ciência da Informação",
+      "tipo": "Periódico",
+      "areas": [
+        "ciência da informação"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-09-15",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://periodicos.ufmg.br/index.php/pci/article/view/59404"
     }
   ]
 }
