@@ -2029,6 +2029,52 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://periodicos.ufmg.br/index.php/pci/article/view/59404"
+    },
+    {
+      "id": "rss-resolucion-de-la-viii-edicion-de-los-premios-hdh-premioshdh2",
+      "nome": "Resolución de la VIII Edición de los Premios HDH (#PremiosHDH2026)",
+      "inst": "HDH – Humanidades Digitales Hispánicas",
+      "tipo": "Congresso",
+      "areas": [
+        "humanidades digitais"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-09-28",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://humanidadesdigitaleshispanicas.es/premios-hdh-2026-resolucion/"
+    },
+    {
+      "id": "rss-lectura-en-digital-presentacion-del-libro-inteligencia-artif",
+      "nome": "Lectura en digital: presentación del libro «Inteligencia Artificial y Profesorado». 13 de octubre de 2026",
+      "inst": "HDH – Humanidades Digitales Hispánicas",
+      "tipo": "Congresso",
+      "areas": [
+        "humanidades digitais"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Submissao ate 2026-10-13",
+      "prazoSort": "2026-10-13",
+      "status": "open",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-09-28",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://humanidadesdigitaleshispanicas.es/lectura-en-digital-presentacion-del-libro-inteligencia-artificial-y-profesorado-13-de-octubre-de-2026/"
     }
   ]
 }
