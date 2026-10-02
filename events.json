@@ -2075,6 +2075,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://humanidadesdigitaleshispanicas.es/lectura-en-digital-presentacion-del-libro-inteligencia-artificial-y-profesorado-13-de-octubre-de-2026/"
+    },
+    {
+      "id": "rss-aditivo-ao-edital-n-02-2026-ancib-chamada-de-selecao-de-cand",
+      "nome": "Aditivo ao Edital N. 02/2026/ANCIB – Chamada de seleção de candidaturas entre os PPG em CI para sediar o XXVII ENANCIB",
+      "inst": "Associação Nacional de Pesquisa e Pós-Graduação em Ciência da Informação",
+      "tipo": "Congresso",
+      "areas": [
+        "ciência da informação"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Submissao ate 2026-10-19",
+      "prazoSort": "2026-10-19",
+      "status": "open",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-02",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://ancib.org/noticia/aditivo-ao-edital-n-02-2026-ancib-chamada-de-selecao-de-candidaturas-entre-os-ppg-em-ci-para-sediar-o-xxvii-enancib/"
     }
   ]
 }
