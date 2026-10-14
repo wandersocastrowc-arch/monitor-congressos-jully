@@ -2068,7 +2068,7 @@
       "evento": "",
       "prazo": "Submissao ate 2026-10-13",
       "prazoSort": "2026-10-13",
-      "status": "open",
+      "status": "closed",
       "recorrente": false,
       "novo": true,
       "addedOn": "2026-09-28",
@@ -2098,6 +2098,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://ancib.org/noticia/aditivo-ao-edital-n-02-2026-ancib-chamada-de-selecao-de-candidaturas-entre-os-ppg-em-ci-para-sediar-o-xxvii-enancib/"
+    },
+    {
+      "id": "rss-carta-em-defesa-da-candidatura-do-presidente-lula-e-da-democ",
+      "nome": "Carta em defesa da candidatura do presidente Lula e da democracia: por uma Comunicação livre e mais investimentos para educação, ciência e tecnologia!",
+      "inst": "COMPÓS",
+      "tipo": "Congresso",
+      "areas": [
+        "comunicação"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-14",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://compos.org.br/carta-em-defesa-da-candidatura-do-presidente-lula-e-da-democracia-por-uma-comunicacao-livre-e-mais-investimentos-para-educacao-ciencia-e-tecnologia/"
     }
   ]
 }
