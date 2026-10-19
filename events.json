@@ -2121,6 +2121,52 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://compos.org.br/carta-em-defesa-da-candidatura-do-presidente-lula-e-da-democracia-por-uma-comunicacao-livre-e-mais-investimentos-para-educacao-ciencia-e-tecnologia/"
+    },
+    {
+      "id": "rss-posicionando-metodos-digitais-entre-humanidades-digitais-e-c",
+      "nome": "Posicionando métodos digitais entre humanidades digitais e ciência social computacional",
+      "inst": "MATRIZes",
+      "tipo": "Periódico",
+      "areas": [
+        "comunicação"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-19",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://revistas.usp.br/matrizes/pt_BR/article/view/250415"
+    },
+    {
+      "id": "rss-cartografias-do-imaginario-colonial-paisagem-poder-e-tracos-",
+      "nome": "Cartografias do Imaginário Colonial: Paisagem, Poder e Traços Espectrais no Cinema Latino-Americano Contemporâneo",
+      "inst": "MATRIZes",
+      "tipo": "Periódico",
+      "areas": [
+        "comunicação"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-19",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://revistas.usp.br/matrizes/pt_BR/article/view/239211"
     }
   ]
 }
