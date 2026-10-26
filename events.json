@@ -2167,6 +2167,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://revistas.usp.br/matrizes/pt_BR/article/view/239211"
+    },
+    {
+      "id": "rss-fallo-de-la-i-edicion-del-premio-al-mejor-trabajo-de-fin-de-",
+      "nome": "Fallo de la I edición del Premio al Mejor Trabajo de Fin de Grado y Fin de Máster en Humanidades Digitales HDH–UNIR",
+      "inst": "HDH – Humanidades Digitales Hispánicas",
+      "tipo": "Congresso",
+      "areas": [
+        "humanidades digitais"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-26",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://humanidadesdigitaleshispanicas.es/fallo-i-premio-tfg-tfm-hdh-unir-2026/"
     }
   ]
 }
