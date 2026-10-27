@@ -2190,6 +2190,121 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://humanidadesdigitaleshispanicas.es/fallo-i-premio-tfg-tfm-hdh-unir-2026/"
+    },
+    {
+      "id": "open-ciencia-da-informacao",
+      "nome": "Ciência da Informação",
+      "inst": "SciELO",
+      "tipo": "Periódico",
+      "areas": [
+        "ciencia da informacao"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "multi",
+      "evento": "",
+      "prazo": "Sempre aberto",
+      "prazoSort": "2099-01-01",
+      "status": "always",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-27",
+      "fonte": "OpenAlex",
+      "obs": "Venue identificada via OpenAlex - confirmar escopo e idioma.",
+      "link": "http://revista.ibict.br/ciinf/index"
+    },
+    {
+      "id": "open-perspectivas-em-ciencia-da-informacao",
+      "nome": "Perspectivas em Ciência da Informação",
+      "inst": "Universidade Federal de Minas Gerais, Escola de Ciência da Informação",
+      "tipo": "Periódico",
+      "areas": [
+        "ciencia da informacao"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "multi",
+      "evento": "",
+      "prazo": "Sempre aberto",
+      "prazoSort": "2099-01-01",
+      "status": "always",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-27",
+      "fonte": "OpenAlex",
+      "obs": "Venue identificada via OpenAlex - confirmar escopo e idioma.",
+      "link": "http://www.scielo.br/pci"
+    },
+    {
+      "id": "open-encontros-bibli-revista-eletronica-de-biblioteconomia-e-cien",
+      "nome": "Encontros Bibli Revista Eletrônica de Biblioteconomia e Ciência da Informação",
+      "inst": "Universidade Federal de Santa Catarina",
+      "tipo": "Periódico",
+      "areas": [
+        "ciencia da informacao"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "multi",
+      "evento": "",
+      "prazo": "Sempre aberto",
+      "prazoSort": "2099-01-01",
+      "status": "always",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-27",
+      "fonte": "OpenAlex",
+      "obs": "Venue identificada via OpenAlex - confirmar escopo e idioma.",
+      "link": "https://periodicos.ufsc.br/index.php/eb"
+    },
+    {
+      "id": "open-rdbci-revista-digital-de-biblioteconomia-e-ciencia-da-inform",
+      "nome": "RDBCI Revista Digital de Biblioteconomia e Ciência da Informação",
+      "inst": "University of Campinas",
+      "tipo": "Periódico",
+      "areas": [
+        "ciencia da informacao"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "multi",
+      "evento": "",
+      "prazo": "Sempre aberto",
+      "prazoSort": "2099-01-01",
+      "status": "always",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-27",
+      "fonte": "OpenAlex",
+      "obs": "Venue identificada via OpenAlex - confirmar escopo e idioma.",
+      "link": "http://periodicos.sbu.unicamp.br/ojs/index.php/rdbci/"
+    },
+    {
+      "id": "open-pesquisa-brasileira-em-ciencia-da-informacao-e-biblioteconom",
+      "nome": "Pesquisa Brasileira em Ciência da Informação e Biblioteconomia",
+      "inst": "Federal University of Paraíba",
+      "tipo": "Periódico",
+      "areas": [
+        "ciencia da informacao"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "multi",
+      "evento": "",
+      "prazo": "Sempre aberto",
+      "prazoSort": "2099-01-01",
+      "status": "always",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-10-27",
+      "fonte": "OpenAlex",
+      "obs": "Venue identificada via OpenAlex - confirmar escopo e idioma.",
+      "link": "http://periodicos.ufpb.br/ojs2/index.php/pbcib/index"
     }
   ]
 }
