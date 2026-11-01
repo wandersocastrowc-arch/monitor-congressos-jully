@@ -2305,6 +2305,29 @@
       "fonte": "OpenAlex",
       "obs": "Venue identificada via OpenAlex - confirmar escopo e idioma.",
       "link": "http://periodicos.ufpb.br/ojs2/index.php/pbcib/index"
+    },
+    {
+      "id": "open-incid-revista-de-ciencia-da-informacao-e-documentacao",
+      "nome": "InCID Revista de Ciência da Informação e Documentação",
+      "inst": "University of São Paulo",
+      "tipo": "Periódico",
+      "areas": [
+        "ciencia da informacao"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "multi",
+      "evento": "",
+      "prazo": "Sempre aberto",
+      "prazoSort": "2099-01-01",
+      "status": "always",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-11-01",
+      "fonte": "OpenAlex",
+      "obs": "Venue identificada via OpenAlex - confirmar escopo e idioma.",
+      "link": "http://revistas.ffclrp.usp.br/incid"
     }
   ]
 }
