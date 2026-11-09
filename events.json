@@ -2351,6 +2351,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://humanidadesdigitaleshispanicas.es/cafe-con-cesar-gonzalez-perez-10-de-noviembre-de-2026/"
+    },
+    {
+      "id": "rss-assembleia-geral-ordinaria-2026",
+      "nome": "Assembleia Geral Ordinária 2026",
+      "inst": "Associação Nacional de Pesquisa e Pós-Graduação em Ciência da Informação",
+      "tipo": "Congresso",
+      "areas": [
+        "ciência da informação"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Submissao ate 2026-11-12",
+      "prazoSort": "2026-11-12",
+      "status": "open",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-11-09",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://ancib.org/noticia/assembleia-geral-ordinaria-2026/"
     }
   ]
 }
