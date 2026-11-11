@@ -2344,7 +2344,7 @@
       "evento": "",
       "prazo": "Submissao ate 2026-11-10",
       "prazoSort": "2026-11-10",
-      "status": "open",
+      "status": "closed",
       "recorrente": false,
       "novo": true,
       "addedOn": "2026-11-03",
@@ -2374,6 +2374,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://ancib.org/noticia/assembleia-geral-ordinaria-2026/"
+    },
+    {
+      "id": "rss-convocado-el-vi-premio-a-la-mejor-tesis-doctoral-en-humanida",
+      "nome": "Convocado el VI Premio a la Mejor Tesis Doctoral en Humanidades Digitales HDH-FBBVA",
+      "inst": "HDH – Humanidades Digitales Hispánicas",
+      "tipo": "Congresso",
+      "areas": [
+        "humanidades digitais"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-11-11",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://humanidadesdigitaleshispanicas.es/convocado-el-vi-premio-a-la-mejor-tesis-doctoral-en-humanidades-digitales-hdh-fbbva/"
     }
   ]
 }
