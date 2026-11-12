@@ -2397,6 +2397,29 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://humanidadesdigitaleshispanicas.es/convocado-el-vi-premio-a-la-mejor-tesis-doctoral-en-humanidades-digitales-hdh-fbbva/"
+    },
+    {
+      "id": "rss-lancado-o-site-e-a-chamada-de-trabalhos-para-o-36o-encontro-",
+      "nome": "Lançado o site e a chamada de trabalhos para o 36º Encontro da Compós",
+      "inst": "COMPÓS",
+      "tipo": "Congresso",
+      "areas": [
+        "comunicação"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Submissao ate 2027-06-11",
+      "prazoSort": "2027-06-11",
+      "status": "open",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-11-12",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://compos.org.br/lancado-o-site-e-a-chamada-de-trabalhos-para-o-36o-encontro-da-compos/"
     }
   ]
 }
