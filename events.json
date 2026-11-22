@@ -2420,6 +2420,30 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://compos.org.br/lancado-o-site-e-a-chamada-de-trabalhos-para-o-36o-encontro-da-compos/"
+    },
+    {
+      "id": "rss-19th-international-isko-conference",
+      "nome": "19th International ISKO Conference",
+      "inst": "ISKO Brasil",
+      "tipo": "Congresso",
+      "areas": [
+        "organização do conhecimento",
+        "metadados"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "PT",
+      "evento": "",
+      "prazo": "Verificar prazo",
+      "prazoSort": "2099-01-01",
+      "status": "monitor",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-11-22",
+      "fonte": "RSS",
+      "obs": "Descoberto via RSS - confira a chamada oficial.",
+      "link": "https://isko.org.br/19th-international-isko-conference/"
     }
   ]
 }
