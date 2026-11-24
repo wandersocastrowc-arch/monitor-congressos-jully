@@ -2444,6 +2444,31 @@
       "fonte": "RSS",
       "obs": "Descoberto via RSS - confira a chamada oficial.",
       "link": "https://isko.org.br/19th-international-isko-conference/"
+    },
+    {
+      "id": "doaj-studia-archiwalne",
+      "nome": "Studia Archiwalne",
+      "inst": "The State Archive in Lublin",
+      "tipo": "Periódico",
+      "areas": [
+        "archival science",
+        "archive studies",
+        "history"
+      ],
+      "mod": "varia",
+      "modLabel": "Verificar modalidade",
+      "local": "",
+      "idioma": "EN",
+      "evento": "",
+      "prazo": "Sempre aberto",
+      "prazoSort": "2099-01-01",
+      "status": "always",
+      "recorrente": false,
+      "novo": true,
+      "addedOn": "2026-11-24",
+      "fonte": "DOAJ",
+      "obs": "Revista de acesso aberto (DOAJ). Sem taxa de publicacao (sem APC).",
+      "link": "https://ejournals.eu/en/journal/studia-archiwalne"
     }
   ]
 }
